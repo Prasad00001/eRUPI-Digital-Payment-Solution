@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972457060253",
+    "project_id": "erupee-68990",
+    "storage_bucket": "erupee-68990.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972457060253:android:ecba16169c1fb86f41f174",
+        "android_client_info": {
+          "package_name": "com.project.eRupee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972457060253-2nerdhe2uquouehtp8c74nib273n9oga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMrHL7V2lqICU6ZQufg-pC9zvWdEOIOec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972457060253-2nerdhe2uquouehtp8c74nib273n9oga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

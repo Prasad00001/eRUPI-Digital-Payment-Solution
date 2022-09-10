@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView xmlns:Card_View="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="5dp"
+            android:padding="10dp"
+            Card_View:cardCornerRadius="5dp"
+            Card_View:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioAdmin"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25sp"
+                        android:checked="true"
+                        android:text="Login As Admin"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioDis"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Login As Distributor"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioUser"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Login As End user"
+                        android:textSize="16sp" />
+                </RadioGroup>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/emailError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/prompt_email"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/passError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    app:passwordToggleEnabled="true">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/prompt_password"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:paddingStart="5dp"
+                        android:singleLine="true" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/button_gradient"
+                    android:text="@string/login"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/errorTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#EE0000"
+                    android:elevation="20dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="ERROR"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/round_background"
+        android:padding="15dp"
+        android:src="@drawable/profile" />
+
+</RelativeLayout>

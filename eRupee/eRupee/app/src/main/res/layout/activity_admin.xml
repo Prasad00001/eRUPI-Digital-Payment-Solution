@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50sp"
+        android:text="Welcome to Admin Portal"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/voucher"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_gradient"
+        android:text="Create Voucher"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/distributor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_gradient_green"
+        android:text="Add Distributor"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/userBT"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_gradient_green"
+        android:text="Add User"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/disVoucher"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_gradient"
+        android:text="Distribute Voucher"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/gradient"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

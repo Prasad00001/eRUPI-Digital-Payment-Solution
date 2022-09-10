@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">eRupee</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_new">Click here for register</string>
+    <string name="not_register">Not Register?</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="aadhaar">Aadhaar Number</string>
+    <string name="register">Register</string>
+    <string name="redeem">Redeem</string>
+    <string name="name_error">Please enter your name</string>
+    <string name="phone_error">Please enter your phone number</string>
+    <string name="email_error">Please enter your email address</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="error_invalid_password">Please enter a minimum password of 6 characters</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_out">sign out</string>
+    <string name="email_and_password">Email and Password</string>
+    <string name="new_here">New here?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="by_creating_an_account_you_agree_on">By creating an account, you agree on</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="already_signed_up">Already signed up?</string>
+    <string name="finish_sign_up">Finish Sign-up</string>
+</resources>
